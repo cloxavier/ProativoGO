@@ -105,7 +105,8 @@ class GraficoPie extends StatelessWidget {
   }) : super(key: key);
 
   final dadosPie grafico;
-  final String tituloPagina;
+  final String tituloPagina; //usado em pagina inteira.
+
   final String tituloGrafico;
   final bool appbar;
   final double largura;
